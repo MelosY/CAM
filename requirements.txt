@@ -1,0 +1,55 @@
+certifi==2023.11.17
+charset-normalizer==3.3.2
+contourpy==1.1.1
+cycler==0.12.1
+editdistance==0.6.2
+einops==0.7.0
+filelock==3.13.1
+fonttools==4.47.0
+fsspec==2023.12.2
+fvcore==0.1.5.post20221221
+huggingface-hub==0.20.2
+idna==3.6
+imageio==2.33.1
+imgaug==0.4.0
+importlib-resources==6.1.1
+iopath==0.1.10
+kiwisolver==1.4.5
+lazy_loader==0.3
+lmdb==1.4.1
+matplotlib==3.7.4
+mkl-fft @ file:///croot/mkl_fft_1695058164594/work
+mkl-random @ file:///croot/mkl_random_1695059800811/work
+mkl-service==2.4.0
+networkx==3.1
+numpy @ file:///work/mkl/numpy_and_numpy_base_1682953417311/work
+opencv-python==4.8.0.76
+packaging==23.2
+Pillow @ file:///croot/pillow_1696580024257/work
+portalocker==2.8.2
+protobuf==4.25.1
+pygame==2.5.2
+pyparsing==3.1.1
+python-dateutil==2.8.2
+PyWavelets==1.4.1
+PyYAML==6.0.1
+requests==2.31.0
+safetensors==0.4.1
+scikit-image==0.21.0
+scipy==1.10.1
+shapely==2.0.2
+six==1.16.0
+tabulate==0.9.0
+tensorboardX==2.6.2.2
+termcolor==2.4.0
+tifffile==2023.7.10
+timm==0.6.13
+torch==1.10.1
+torchaudio==0.10.1
+torchvision==0.11.2
+tqdm==4.66.1
+typing_extensions @ file:///croot/typing_extensions_1690297465030/work
+urllib3==2.1.0
+yacs==0.1.8
+zhconv==1.4.3
+zipp==3.17.0

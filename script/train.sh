@@ -1,0 +1,34 @@
+python -m torch.distributed.launch --master_port=1234 \
+    main_finetune.py \
+    --model convnextv2_nano \
+    --batch_size 128 \
+    --update_freq 1 \
+    --blr 8e-4 \
+    --epochs 6 \
+    --warmup_epochs 1 \
+    --layer_decay_type 'single' \
+    --layer_decay 1. \
+    --weight_decay 0.05 \
+    --drop_path 0.2 \
+    --model_ema True \
+    --model_ema_eval True \
+    --use_amp False \
+    --mixup 0. \
+    --num_view 2 \
+    --max_len 25 \
+    --nb_classes 71 \
+    --smoothing 0. \
+    --strides 4_4__2_1__2_1__1_1 \
+    --input_h 64 \
+    --input_w 256 \
+    --dataset_dir ./ \
+    --data_path ./test_data/svt_647 \
+    --eval_data_path ./test_data/svt_647 \
+    --font_path ./dataset/arial.ttf \
+    --voc_type LOWERCASE \
+    --loss_weight_binary 1.5 \
+    --binary_loss_type BanlanceMultiClassCrossEntropyLoss \
+    --voc_type LOWERCASE \
+    --mid_size True \
+    --decoder_type tiny_tf_decoder \
+    --use_depthwise_unet True
