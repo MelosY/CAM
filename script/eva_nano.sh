@@ -31,7 +31,7 @@ OMP_NUM_THREADS=1 python  main_finetune.py  \
     --font_path ./dataset/arial.ttf \
     --evaluation True \
     --output_dir outputs \
-    --resume checkpoint-5.pth \
+    --resume path_to_pth \
     \
     --decoder_type tiny_tf_decoder \
     --use_depthwise_unet True \

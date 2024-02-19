@@ -31,7 +31,7 @@ OMP_NUM_THREADS=1 python  main_finetune.py  \
     --font_path ./dataset/arial.ttf \
     --evaluation True \
     --output_dir outputs \
-    --resume /home/kas/byang/convnextv2_ocr/checkpoint-9_7000.pth \
+    --resume path_to_pth \
     \
     --use_more_unet \
     --decoder_type small_tf_decoder \
