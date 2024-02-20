@@ -156,7 +156,7 @@ def get_args_parser():
     parser.add_argument('--eval_freq', default=1000, type=int)
 
     parser.add_argument('--other_test_data_folders', type=str, nargs='+',
-                        default=['svt_647', 'IC13_857','ic15_1811',
+                        default=['IIIT5k','svt_647', 'IC13_857','ic15_1811',
                                 'svt_p_645', 'cute80_288', 'COCOv1.4', 'ctw_1572', 'totaltext_2201', 'HOST', 'WOST',
                                 'wordart'])
     parser.add_argument('--voc_type', type=str, default='ALLCASES_SYMBOLS',

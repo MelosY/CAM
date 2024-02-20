@@ -33,6 +33,6 @@ OMP_NUM_THREADS=1 python  main_finetune.py  \
     --decoder_type small_tf_decoder \
     --evaluation True \
     --output_dir outputs \
-    --resume  path_to_pth \
+    --resume  \
     \
     --use_more_unet \
