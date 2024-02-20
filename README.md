@@ -4,12 +4,12 @@ This official pytorch implementation for "Class-Aware Mask-guided feature refine
 
 ![](./fig/pipline.png)
 
-## Data preparation
+## Data Preparation
 
 | Data                              | path                                                         |
 | --------------------------------- | ------------------------------------------------------------ |
 | Synthetic Text Data               | [SynthText, Synth90k](https://pan.baidu.com/s/1BMYb93u4gW_3GJdjBWSCSw&shfl=sharepset) (Baiduyun with passwd: wi05) |
-| Scene Text Recognition Benchmarks | [IIIT5k](https://1drv.ms/f/s!AlfksBYj8EUdgwIMnL795BslzfRt?e=ePJEVd), [SVT](https://1drv.ms/u/s!AgwG2MwdV23ckOhyQn60SzFI97IAeQ?e=Pk8rlZ), [IC13_857](https://1drv.ms/f/s!AlfksBYj8EUdgwAyDp6154Hj1ggj?e=AHyVIb), [IC15](https://1drv.ms/u/s!AgwG2MwdV23ckOhuy6ebkDhU3i5vcQ?e=t1XQN6), [SVTP](https://1drv.ms/u/s!AgwG2MwdV23ckOhzwW9jeK0zajRwiA?e=ibLDvC), [CUTE](https://1drv.ms/u/s!AgwG2MwdV23ckOhq0MJ4-jHDq9gFaw?e=uaxaEX), [COCOText](https://1drv.ms/f/s!AlfksBYj8EUdgn3lLOwcTO1R7QMr?e=JaPdto), [CTW](https://1drv.ms/u/s!AgwG2MwdV23ckOhp6ddoyLetHu2yaA?e=qTdZEc), [Total-Text](https://1drv.ms/u/s!AgwG2MwdV23ckOh02A7vn9kfCmuYjg?e=kkxmf6), [HOST](https://1drv.ms/u/s!AgwG2MwdV23ckOhw2Aj0lquBf3eGzA?e=pcFEth), [WOST](https://1drv.ms/u/s!AgwG2MwdV23ckOhxVi_7kppEkFMz2A?e=lKYfUY),[WordArt](https://1drv.ms/f/s!AgwG2MwdV23ckPNJmbcmTRfFTJrW7A?e=oq5q3z) |
+| Scene Text Recognition Benchmarks | [IIIT5k](https://1drv.ms/f/s!AlfksBYj8EUdgwIMnL795BslzfRt?e=ePJEVd), [SVT](https://1drv.ms/u/s!AgwG2MwdV23ckOhyQn60SzFI97IAeQ?e=Pk8rlZ), [IC13](https://1drv.ms/f/s!AlfksBYj8EUdgwAyDp6154Hj1ggj?e=AHyVIb), [IC15](https://1drv.ms/u/s!AgwG2MwdV23ckOhuy6ebkDhU3i5vcQ?e=t1XQN6), [SVTP](https://1drv.ms/u/s!AgwG2MwdV23ckOhzwW9jeK0zajRwiA?e=ibLDvC), [CUTE](https://1drv.ms/u/s!AgwG2MwdV23ckOhq0MJ4-jHDq9gFaw?e=uaxaEX), [COCOText](https://1drv.ms/f/s!AlfksBYj8EUdgn3lLOwcTO1R7QMr?e=JaPdto), [CTW](https://1drv.ms/u/s!AgwG2MwdV23ckOhp6ddoyLetHu2yaA?e=qTdZEc), [Total-Text](https://1drv.ms/u/s!AgwG2MwdV23ckOh02A7vn9kfCmuYjg?e=kkxmf6), [HOST](https://1drv.ms/u/s!AgwG2MwdV23ckOhw2Aj0lquBf3eGzA?e=pcFEth), [WOST](https://1drv.ms/u/s!AgwG2MwdV23ckOhxVi_7kppEkFMz2A?e=lKYfUY),[WordArt](https://1drv.ms/f/s!AgwG2MwdV23ckPNJmbcmTRfFTJrW7A?e=oq5q3z) |
 
 
 
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 2. Evaluation
 
-   - modify the  script/eval_tiny.sh ,change the ''path_to_pth'' to your own path, which is simliar to eval_nano.sh and eval_base.sh
+   - modify the  script/eval_tiny.sh ,change the ''path_to_pth'' to your own path, which is similar to eval_nano.sh and eval_base.sh
 
    ```bash
    bash script/eval_tiny.sh
@@ -61,4 +61,4 @@ pip install -r requirements.txt
 }
 ```
 
-This repository is built upon [ConvNeXt-V2](https://github.com/facebookresearch/ConvNeXt-V2) , thanks very much!
+This repository is built upon [ConvNeXt-V2](https://github.com/facebookresearch/ConvNeXt-V2), thanks very much!
