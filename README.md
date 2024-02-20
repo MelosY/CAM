@@ -15,8 +15,10 @@ This official pytorch implementation for "Class-Aware Mask-guided feature refine
 
 ## Checkpoint
 
-You can download different version of our model in this [link](https://1drv.ms/f/s!AgwG2MwdV23ckYQphotHRKMqlqgpqA?e=VXqdTb).
-
+You can download different version of our model in the link below.
+[Base](https://1drv.ms/f/s!AgwG2MwdV23ckYQr-8RSWc8nzA3Hbg?e=ETPDWf)
+[Nano](https://1drv.ms/f/s!AgwG2MwdV23ckYQqFMAZ4ezWm2fTAw?e=IAkn9P)
+[Tiny](https://1drv.ms/f/s!AgwG2MwdV23ckYQsrviL0PsHrwAPuw?e=LK22hK)
 ## Setup
 
 ```bash
